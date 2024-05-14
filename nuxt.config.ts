@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         },
       ],
     },
+    baseURL: "/bashamel/",
   },
   runtimeConfig: {
     currencyKey: process.env.CURRENCY_API_KEY,
