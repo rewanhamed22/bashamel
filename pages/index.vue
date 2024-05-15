@@ -1,7 +1,6 @@
 <template>
   <div>
-   
-    <h2>Home</h2>
+    <h2>{{ $t("home") }}</h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dicta
       numquam voluptatem quo aliquam perspiciatis consequuntur debitis nulla
@@ -13,9 +12,16 @@
       consectetur voluptate.
     </p>
   </div>
+  <NuxtLink :to="localPath('/about')"
+    ><p class="btn my-4">{{ $t("about_btn") }}</p></NuxtLink
+  >
+  <LangSwitcher class="mt-4" />
+  
 </template>
 
-<script setup></script>
+<script setup>
+const localPath = useLocalePath();
+</script>
 
 <style scoped>
 h2 {
