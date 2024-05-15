@@ -1,7 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@vee-validate/nuxt", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+    "@vee-validate/nuxt",
+    "@nuxtjs/i18n",
+    "shadcn-nuxt",
+  ],
   i18n: {
     locales: [
       {
