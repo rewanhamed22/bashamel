@@ -21,3 +21,6 @@
   color: #12b488;
 }
 </style>
+<script setup>
+
+</script>
