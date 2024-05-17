@@ -32,11 +32,11 @@ const [password, passwordAttrs] = defineField("password");
 const [confirmPassword, conPasswordAttrs] = defineField("confirmPassword");
 
 const failValidation = () => {
-  console.log("Register failed");
+  alert("Register failed");
 };
 
 const handleCreateAccount = handleSubmit((values) => {
-  console.log("Register success", values);
+  alert("Register success");
   isRegisterSuccess.value = true;
 }, failValidation);
 </script>
@@ -114,5 +114,5 @@ const handleCreateAccount = handleSubmit((values) => {
       Your account was created successfully!
     </div>
   </form>
-  <LangSwitcher  />
+  <LangSwitcher />
 </template>
