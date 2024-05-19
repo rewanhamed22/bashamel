@@ -13,7 +13,7 @@
     </p>
     <!-- <div>{{ data }}</div> -->
     <NuxtLink :to="localPath('/')"
-      ><p class="btn my-4 ">{{ $t("home_btn") }}</p></NuxtLink
+      ><Button class="btn my-4 ">{{ $t("home_btn") }}</Button></NuxtLink
     >
     <LangSwitcher class="mt-4" />
   </div>

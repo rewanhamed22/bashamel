@@ -8,7 +8,7 @@
           <li><NuxtLink :to="localPath('/about')">About</NuxtLink></li>
           <li><NuxtLink :to="localPath('/products')">Products</NuxtLink></li>
         </ul>
-        <NuxtLink :to="localPath('/vee')" class="btn">Sign up</NuxtLink>
+        <NuxtLink :to="localPath('/vee')" ><Button>Sign up</Button></NuxtLink>
       </nav>
     </header>
     <!-- output the page content  -->

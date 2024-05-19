@@ -8,6 +8,14 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "shadcn-nuxt",
   ],
+  shadcn: {
+    prefix: '',
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: './components/ui'
+  },
   i18n: {
     locales: [
       {

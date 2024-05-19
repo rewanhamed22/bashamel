@@ -13,7 +13,7 @@
     </p>
   </div>
   <NuxtLink :to="localPath('/about')"
-    ><p class="btn my-4">{{ $t("about_btn") }}</p></NuxtLink
+    ><Button class="btn my-4">{{ $t("about_btn") }}</Button></NuxtLink
   >
   <LangSwitcher class="mt-4" />
   
